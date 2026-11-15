@@ -1,0 +1,13 @@
+# Salin ke %APPDATA%\Bitcoin\bitcoin.conf, lalu GANTI password.
+# HANYA REGTEST (jaringan lokal pribadi, tanpa nilai uang).
+regtest=1
+server=1
+txindex=1
+
+[regtest]
+rpcuser=labuser
+rpcpassword=GANTI_DENGAN_PASSWORD_ACAK_PANJANG
+rpcbind=127.0.0.1
+rpcallowip=127.0.0.1
+rpcport=18443
+fallbackfee=0.0001
