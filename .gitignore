@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.sqlite
+*.db
+*.csv
+data/
+secrets/
+*.key
+*.wif
+.env
+bitcoin.conf

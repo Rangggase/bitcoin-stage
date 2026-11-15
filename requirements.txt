@@ -1,0 +1,9 @@
+# Tahap 1: hanya library standar Python (+ pytest untuk tes)
+pytest>=8
+# Tahap 2: coincurve hanya dipakai untuk membandingkan implementasi manual di tes
+coincurve>=20
+# Tahap 3: web app + HTTP client
+flask>=3
+requests>=2.31
+# Tahap 5: grafik
+matplotlib>=3.8
