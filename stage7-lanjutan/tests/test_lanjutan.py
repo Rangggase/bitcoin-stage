@@ -14,9 +14,7 @@ VEC = "abandon abandon abandon abandon abandon abandon abandon abandon abandon a
 
 def test_wordlist_resmi():
     # dinormalisasi ke LF agar lulus walau Git Windows mengubah akhir baris (autocrlf)
-    teks = "
-".join(hd.WORDLIST) + "
-"
+    teks = chr(10).join(hd.WORDLIST) + chr(10)
     assert hashlib.sha256(teks.encode()).hexdigest() == "2f5eed53a4727b4bf8880d8f3f199efc90e58503646d9ff8eff3a2ed3b24dbda"
 
 
