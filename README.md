@@ -31,6 +31,7 @@ python stage7-lanjutan\hd.py
 ```
 
 ## Catatan keamanan
+- **PERINGATAN:** kode kriptografi di repo ini ditulis untuk belajar (tidak konstan-waktu, tidak diaudit). **Jangan dipakai untuk mengamankan dana nyata.**
 - Kunci/mnemonic dalam contoh adalah **contoh testnet**; jangan dipakai untuk dana nyata. Kunci milik Anda (testnet) simpan di `secrets\` (di-.gitignore).
 - Kode kriptografi di sini untuk belajar, bukan produksi (tidak konstan-waktu).
 - Transaksi tidak pernah disiarkan oleh kode ini; Anda yang menyiarkan ke testnet setelah memeriksa hex.
